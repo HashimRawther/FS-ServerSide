@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 require('mongoose-currency').loadType(mongoose);
+const User = require('./user');
 const Currency = mongoose.Types.Currency;
 
 var commentSchema = new Schema({
